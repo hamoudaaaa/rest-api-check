@@ -1,0 +1,24 @@
+{
+    "name": "rest-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "nodemon server",
+        "dev": "concurrently \"npx nodemon server \" \"cd client && npm start\""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "concurrently": "^6.0.2",
+        "express": "^4.17.1",
+        "express-validator": "^6.11.1",
+        "mongoose": "^5.12.6",
+        "react-bootstrap": "^1.5.2"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0",
+        "nodemon": "^2.0.7"
+    }
+}
